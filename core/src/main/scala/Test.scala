@@ -1,3 +1,5 @@
+package fake_type_providers
 object Test extends App {
-  Macros.hello
+  val oreDyn = DynamicSchemaMaker("/schema.txt")
+    println(oreDyn.proxyIn)
 }

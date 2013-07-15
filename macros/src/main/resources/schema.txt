@@ -1,0 +1,12 @@
+aggregates http://www.openarchives.org/ore/terms/aggregates
+isAggregatedBy http://www.openarchives.org/ore/terms/isAggregatedBy
+describes http://www.openarchives.org/ore/terms/describes
+isDescribedBy http://www.openarchives.org/ore/terms/isDescribedBy
+lineage http://www.openarchives.org/ore/terms/lineage
+proxyFor http://www.openarchives.org/ore/terms/proxyFor
+proxyIn http://www.openarchives.org/ore/terms/proxyIn
+similarTo http://www.openarchives.org/ore/terms/similarTo
+Aggregation http://www.openarchives.org/ore/terms/Aggregation
+AggregatedResource http://www.openarchives.org/ore/terms/AggregatedResource
+Proxy http://www.openarchives.org/ore/terms/Proxy
+ResourceMap http://www.openarchives.org/ore/terms/ResourceMap
