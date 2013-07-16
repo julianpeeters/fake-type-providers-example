@@ -4,7 +4,7 @@
 		module="core_2.10"
 		revision="1.0.0"
 		status="integration"
-		publication="20130715131045"
+		publication="20130715184200"
 	>
 		<description>
 		core
@@ -32,10 +32,11 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scalamacros" name="macros_2.10" rev="1.0.0" conf="compile->default(compile)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.1" conf="compile->default(compile)"/>
+		<dependency org="com.novus" name="salat_2.10" rev="1.9.2-SNAPSHOT" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
-		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.0"/>
-		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.0"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.1"/>
+		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.1"/>
 	</dependencies>
 </ivy-module>

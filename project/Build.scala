@@ -5,8 +5,10 @@ object BuildSettings {
   val buildSettings = Defaults.defaultSettings ++ Seq(
     organization := "org.scalamacros",
     version := "1.0.0",
-    scalaVersion := "2.10.0",
-    scalacOptions ++= Seq()
+    scalaVersion := "2.10.1",
+    scalacOptions ++= Seq(),
+    resolvers += "repo.scalatools snaps" at "https://oss.sonatype.org/content/repositories/snapshots/",
+    libraryDependencies += "com.novus" %% "salat" % "1.9.2-SNAPSHOT"
   )
 }
 

@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/julianpeeters/fake-type-providers-example/project[0m
+[0m[[0minfo[0m] [0mSet current project to core (in build file:/home/julianpeeters/fake-type-providers-example/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/julianpeeters/fake-type-providers-example/core/target/scala-2.10/classes...[0m
+[0m[[0minfo[0m] [0mRunning fake_type_providers.Test [0m
+fake_type_providers.DynamicSchemaMaker$DynamicSchema@4154ab89
+class fake_type_providers.DynamicSchemaMaker$DynamicSchema
+http://www.openarchives.org/ore/terms/proxyIn
+class java.net.URI
+fake_type_providers.Test.ProxyIn
+parser: None
+[0m[[32msuccess[0m] [0mTotal time: 9 s, completed Jul 15, 2013 3:43:56 PM[0m

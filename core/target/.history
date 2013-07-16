@@ -1,0 +1,9 @@
+clean r
+run
+runclen
+clean
+run
+clean
+run
+~run
+exit

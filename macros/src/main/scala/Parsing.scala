@@ -8,21 +8,3 @@ trait SchemaParsingUtils {
     }
 }
 
-import scala.io.Source
-
-object CodeGenSchemaMaker extends SchemaParsingUtils {
-  def apply(path: String, name: String) = {
-    val stream = Option(this.getClass.getResourceAsStream(path)).getOrElse(
-      sys.error("Invalid resource path!")
-    )
-
-    val vals = Source.fromInputStream(stream).getLines.map(
-      parseLine(_).fold(
-        sys.error(_),
-        { case (k, v) => "  val " + k + " = new URI(\"" + v + "\")\n" }
-      )
-    ).mkString
-
-    s"object $name extends Schema {\n  import java.net.URI\n$vals}"
-  }
-}
