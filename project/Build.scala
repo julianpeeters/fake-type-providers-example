@@ -8,7 +8,10 @@ object BuildSettings {
     scalaVersion := "2.10.1",
     scalacOptions ++= Seq(),
     resolvers += "repo.scalatools snaps" at "https://oss.sonatype.org/content/repositories/snapshots/",
-    libraryDependencies += "com.novus" %% "salat" % "1.9.2-SNAPSHOT"
+    resolvers += "spray" at "http://repo.spray.io/",
+    libraryDependencies += "com.novus" %% "salat" % "1.9.3",
+    libraryDependencies += "io.spray" %%  "spray-json" % "1.2.5",
+    libraryDependencies += "com.gensler" %% "scalavro" % "0.4.0"
   )
 }
 

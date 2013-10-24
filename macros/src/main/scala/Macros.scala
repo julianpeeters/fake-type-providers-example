@@ -79,6 +79,7 @@ object DynamicSchemaMaker extends ReflectionUtils with SchemaParsingUtils {
     reify(new java.net.URI(c.literal(uri).splice))
  //   reify(MyRecord(c.literal(uri).splice))
     //reify{case class MyRecord(x: String)}//c.literal(uri).splice)}
+ //   reify{case class MyRecord(x: String)}//c.literal(uri).splice)}
 
   }
 }

@@ -1,12 +1,10 @@
-[0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /home/julianpeeters/.sbt/0.13.1-20130924-062513.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /home/julianpeeters/.sbt but not in /home/julianpeeters/.sbt/0.13.1-20130924-062513.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
 [0m[[0minfo[0m] [0mLoading project definition from /home/julianpeeters/fake-type-providers-example/project[0m
-[0m[[0minfo[0m] [0mSet current project to core (in build file:/home/julianpeeters/fake-type-providers-example/)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/julianpeeters/fake-type-providers-example/core/target/scala-2.10/classes...[0m
-[0m[[0minfo[0m] [0mRunning fake_type_providers.Test [0m
-fake_type_providers.DynamicSchemaMaker$DynamicSchema@4154ab89
-class fake_type_providers.DynamicSchemaMaker$DynamicSchema
-http://www.openarchives.org/ore/terms/proxyIn
-class java.net.URI
-fake_type_providers.Test.ProxyIn
-parser: None
-[0m[[32msuccess[0m] [0mTotal time: 9 s, completed Jul 15, 2013 3:43:56 PM[0m
+[0m[[31merror[0m] [0mOverlapping output directories:/home/julianpeeters/fake-type-providers-example/core/target:[0m
+[0m[[31merror[0m] [0m	ProjectRef(file:/home/julianpeeters/fake-type-providers-example/,core)[0m
+[0m[[31merror[0m] [0m	ProjectRef(file:/home/julianpeeters/fake-type-providers-example/,root)[0m
+[0m[[31merror[0m] [0mUse 'last' for the full log.[0m
+Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? [0m[[31merror[0m] [0mjava.io.IOException: Input/output error[0m
+[0m[[31merror[0m] [0mUse 'last' for the full log.[0m
